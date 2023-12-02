@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+/* font-family: 'Nova Square', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+/* font-family: 'Rubik Bubbles' */
+
+body {
+    background-color: #1b1833;
+    font-family: 'Nova Square';
+}
+
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.box-nav {
+    display: flex;
+    gap: 18px;
+
+}
+
+.box-nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.box-nav a:hover {
+    color:dimgrey;
+}
+
+.box-01 {
+    background-image: url(bg1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.informacoes {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Pacifico';
+    color: #1b1833;
+    gap: 20px;
+}
+.informacoes h1{
+    font-size: 2rem;
+}
+.informacoes p{
+    font-family: 'Rubik Bubbles';
+    font-size: 3rem;
+}
+.informacoes button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #1b1833;
+    font-family: 'Pacifico';
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out; 
+}
+
+.informacoes button:hover{
+    transform: scale(1.1);
+}
